@@ -13,7 +13,12 @@ li{
     background-color: #A50044;
     font-family: 'F.C. BARCELONA', sans-serif; 
 }
-
+.logo{
+    width: 5rem;
+}
+.stadium{
+    width: 100%;
+}
 
 
 /* ID */

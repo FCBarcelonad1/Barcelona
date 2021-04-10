@@ -1,68 +1,260 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
     <!-- My Css-->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css" />
     <!-- font Barcelona -->
-    <link href="http://fonts.cdnfonts.com/css/fc-barcelona" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/fc-barcelona" rel="stylesheet" />
 
     <title>Barcelona Atestat</title>
-</head>
+    <link rel="icon" href="./images/favicon.ico" />
+  </head>
 
-<body> 
+  <body>
     <!-- Navbar -->
     <div id="baraNavigatie"></div>
     <nav class="navbar navbar-expand-lg myNavbar navbar-dark">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-6 mb-lg-0">
-                    <li class="nav-item">
+          <a class="navbar-brand" href="#">
+            <img
+              class="img-fluid logo mb-2"
+              src="./images/Barcelona_FC_logo.svg"
+              alt=""
+            />
+            <span class="fs-1">FC BARCELONA</span>
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-6 mb-lg-0">
+            <!-- <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li>
-                </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+                    </li> -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                First team
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Latest</a></li>
+                <li><a class="dropdown-item" href="#">Results</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li><a class="dropdown-item" href="#">Players</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tickets </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Club </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="image">
+        <img class="stadium" src="./images/camp_nou.jpg" alt="">
+    </divcla>
+
+    <section class="first_team">
+        <h1>First team</h1>
+      <div>
+        <h2>Goalkeepers</h2>
+        <div class="team">
+          <img src="./images/mini_ter_stegen.png" alt="" />
+          <span>1 Marc-André <b>ter Stegen</b></span>
+        </div>
+        <div class="team">
+          <img src="./images/mini_neto_2.png" alt="" />
+          <span>13 <b>Neto</b></span>
+        </div>
+      </div>
+      <div>
+        <h2>Defenders</h2>
+        <div class="team">
+          <img src="./images/mini_dest.png" alt="" />
+          <span>2 Sergino <b>Dest</b></span>
+        </div>
+        <div class="team">
+          <img src="./images/mini_pique.png" alt="" />
+          <span>3 Gerard <b>Pique</b></span>
+        </div>
+        <div class="team">
+          <img src="./images/mini_araujo.png" alt="" />
+          <span>4 Ronald <b>Araujo</b></span>
+        </div>
+        <div class="team">
+          <img src="./images/mini_lenglet.png" alt="" />
+          <span>15 Clement <b>Lenglet</b></span>
+        </div>
+        <div class="team">
+          <img src="./images/mini_alba.png" alt="" />
+          <span>18 Jordi <b>Alba</b></span>
+        </div>
+        <div class="team">
+          <img src="./images/mini_s_roberto.png" alt="" />
+          <span>20 Sergi <b>Roberto</b></span>
+        </div>
+        <div class="team">
+          <img src="./images/mini_umtiti.png" alt="" />
+          <span>23 Samuel <b>Umtiti</b></span>
+        </div>
+        <div class="team">
+          <img src="./images/mini_firpo.png" alt="" />
+          <span>24 Junior <b>Firpo</b></span>
+        </div>
+      </div>
+      <div>
+        <h2>Midfielders</h2>
+        <div class="team">
+          <img src="./images/mini_sergio_2.png" alt="" />
+          <span>5 Sergio <b>Busquets</b></span>
+        </div>
+        <div class="team">
+          <img src="./images/mini_pjanic.png" alt="" />
+          <span>8 Miralem <b>Pjanic</b></span>
+        </div>
+        <div class="team">
+          <img src="./images/mini_riqui.png" alt="" />
+          <span>12 Ricard <b>Puig</b></span>
+        </div>
+        <div class="team">
+          <img src="./images/mini_coutinho.png" alt="" />
+          <span>14 Philippe <b>Coutinho</b></span>
+        </div>
+        <div class="team">
+          <img src="./images/mini_pedri.png" alt="" />
+          <span>16 <b>Pedri</b></span>
+        </div>
+        <div class="team">
+          <img src="./images/mini_matheus.png" alt="" />
+          <span>19 Matheus <b>Fernandes</b></span>
+        </div>
+        <div class="team">
+          <img src="./images/mini_de_jong.png" alt="" />
+          <span>21 Frankie <b>de Jong</b></span>
+        </div>
+      </div>
+      <div>
+        <h2>Forwards</h2>
+        <div class="team">
+          <img src="./images/mini_griezmann.png" alt="" />
+          <span>7 Antoine <b>Griezmann</b></span>
+        </div>
+        <div class="team">
+          <img src="./images/mini_braithwaite.png" alt="" />
+          <span>9 Martin <b>Braithwaite</b></span>
+        </div>
+        <div class="team">
+          <img src="./images/mini_messi.png" alt="" />
+          <span>10 Lionel <b>Messi</b></span>
+        </div>
+        <div class="team">
+          <img src="./images/mini_dembele.png" alt="" />
+          <span>11 Osumane <b>Dembele</b></span>
+        </div>
+        <div class="team">
+          <img src="./images/mini_trincao.png" alt="" />
+          <span>17 <b>Trincano</b></span>
+        </div>
+        <div class="team">
+          <img src="./images/mini_ansu.png" alt="" />
+          <span>22 Anssumane <b>Fati</b></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="tickets">
+        <h1>Tickets</h1>
+        <div class="april">
+            <h2>April 2021</h2>
+            <div class="game">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/LaLiga.svg/256px-LaLiga.svg.png" alt="">
+                <div class="team1">
+                    <img src="./images/Barcelona_FC_logo.svg" alt="">
+                    <h3>FC Barcelona</h3>
+                </div>
+                <h3>vs</h3>
+                <div class="team2">
+                    <img src="https://upload.wikimedia.org/wikipedia/ro/4/46/Getafe_logo.svg" alt="">
+                    <h3>Getafe</h3>
+                </div>
+            </div>
+            <div class="game">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/LaLiga.svg/256px-LaLiga.svg.png" alt="">
+                <div class="team1">
+                    <img src="./images/Barcelona_FC_logo.svg" alt="">
+                    <h3>FC Barcelona</h3>
+                </div>
+                <h3>vs</h3>
+                <div class="team2">
+                    <img src="https://upload.wikimedia.org/wikipedia/ro/d/d3/Granada_CF.svg" alt="">
+                    <h3>Granada CF</h3>
+                </div>
             </div>
         </div>
-    </nav>
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
-    </script>
-</body>
+    </section>
 
+    <section class="club">
+        <h1>Club</h1>
+        <div>
+            <div class="follow">
+                <img src="https://cdn3.iconfinder.com/data/icons/capsocial-round/500/facebook-512.png" alt="">
+                <p>Facebook</p>
+            </div>
+            <div class="follow">
+                <img src="https://cdn2.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-whatsapp-circle-256.png" alt="">
+                <p>WhatsAPP</p>
+            </div>
+            <div class="follow">
+                <img src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/twitter_circle-256.png" alt="">
+                <p>Twitter</p>
+            </div>
+            <div class="follow">
+                <img src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Instagram-256.png" alt="">
+                <p>Instagram</p>
+            </div>
+            <div class="follow">
+                <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/395_Youtube_logo-256.png" alt="">
+                <p>YouTube</p>
+            </div>
+        </div>
+    </section>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
