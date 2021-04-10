@@ -1,0 +1,23 @@
+body {
+    background-color: #004D98;
+    font-size: 3em;
+}
+
+li{
+    margin: auto 2rem;
+}
+
+/* CLASSES */
+
+.myNavbar {
+    background-color: #A50044;
+    font-family: 'F.C. BARCELONA', sans-serif; 
+}
+
+
+
+/* ID */
+
+ /* #baraNavigatie {
+    padding: auto, 3em;
+}  */
