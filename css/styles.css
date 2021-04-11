@@ -1,28 +1,182 @@
 body {
-    background-color: #004D98;
+    background: url(../images/camp_nou.jpg), #004D98;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100vw;
     font-size: 3em;
+    color: #EDBB00;
 }
 
-li{
+li {
     margin: auto 2rem;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+    color: black;
+}
+
+h1 {
+    font-size: 1.2em;
+}
+
+b {
+    color: #EDBB00;
+
+}
+
+span {
+    font-size: 2.6rem;
+}
+
+p {
+    display: inline-block;
 }
 
 /* CLASSES */
 
 .myNavbar {
     background-color: #A50044;
-    font-family: 'F.C. BARCELONA', sans-serif; 
-}
-.logo{
-    width: 5rem;
-}
-.stadium{
-    width: 100%;
+    font-family: 'F.C. BARCELONA', sans-serif;
 }
 
+.logo {
+    width: 5rem;
+}
+
+.first_team {
+    -webkit-text-stroke: 1.5px black;
+    font-size: 1.3em;
+    background-color: white;
+}
+
+.tickets {
+    padding: 100px 100px;
+    background-color: rgb(199, 199, 200, 0.9);
+    text-align: center;
+    margin: 200px 500px auto;
+    border-radius: 20px;
+    -webkit-text-stroke: 0.7px black;
+    font-size: 1.5em;
+}
+
+.game {
+    text-align: justify;
+    margin: auto 290px;
+}
+
+.game img {
+    height: 8rem;
+    position: relative;
+}
+
+
+.team2 {
+    float: right;
+}
+
+.textDreapta {
+    display: inline-block;
+    font-size: 2.2rem;
+    color: black;
+}
+
+/* .test {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+} */
+
+
+.invizibil {
+    display: none;
+}
+
+.umplutura {
+    visibility: hidden;
+}
+
+.first_team {
+    padding: 100px 100px;
+    background-color: rgb(199, 199, 200, 0.9);
+    text-align: justify;
+    margin: 200px 300px auto;
+    border-radius: 20px;
+    -webkit-text-stroke: 0.7px black;
+    font-size: 1.5em;
+    color: black;
+}
+
+.first_team img {
+    max-width: 640px;
+    height: 400px;
+}
+
+.team {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.type {
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    font-size: 2.5rem;
+}
+
+.first_team img {
+    padding-right: 100px;
+}
+
+.contact {
+    background-color:#004D98;
+    text-align: center;
+    padding-top: 20px;
+    height: 2em;
+    color:white;
+}
+
+.follow {
+    font-size: 2rem;
+}
+
+.contact img {
+    width: 30px;
+}
+
+.contacts {
+    margin:auto 750px auto;
+    
+}
 
 /* ID */
 
- /* #baraNavigatie {
-    padding: auto, 3em;
-}  */
+#data {
+    text-align: center;
+    font-size: 0.7em;
+    color: black;
+}
+
+#matches {
+    height: 1px;
+}
+
+#players {
+    height: 1px;
+}
+
+#header1 {
+    text-align: center;
+    margin-bottom: 60px;
+    color: #EDBB00;
+}
+
+#contact{
+    height: 1px;
+}
