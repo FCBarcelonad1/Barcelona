@@ -2,9 +2,11 @@ body {
     background: url(../images/camp_nou.jpg), #004D98;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 100vw;
     font-size: 3em;
     color: #EDBB00;
+    /* -moz-transform: scale(0.75, 0.75); Moz-browsers */
+    zoom: 0.75; /* Other non-webkit browsers */
+    zoom: 75%; /* Webkit browsers */
 }
 
 li {
