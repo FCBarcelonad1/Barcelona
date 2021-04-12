@@ -11,16 +11,23 @@ body {
 
 @media screen and (min-width: 1300px) {
   body {
-    -moz-transform: scale(0.5, 0.5); /*Moz-browsers*/
-    zoom: 0.5; /*Other non-webkit browsers */
-    zoom: 50%; /*Webkit browsers*/
+    -moz-transform: scale(0.5, 0.5);
+    /*Moz-browsers*/
+    zoom: 0.5;
+    /*Other non-webkit browsers */
+    zoom: 50%;
+    /*Webkit browsers*/
   }
 }
+
 @media screen and (min-width: 1800px) {
   body {
-    -moz-transform: scale(0.75, 0.75); /*Moz-browsers*/
-    zoom: 0.75; /*Other non-webkit browsers */
-    zoom: 75%; /*Webkit browsers*/
+    -moz-transform: scale(0.75, 0.75);
+    /*Moz-browsers*/
+    zoom: 0.75;
+    /*Other non-webkit browsers */
+    zoom: 75%;
+    /*Webkit browsers*/
   }
 }
 
@@ -76,7 +83,7 @@ a:hover {
   margin-top: 5rem;
 }
 
-.arrow{
+.arrow {
   display: inline-block;
 }
 
@@ -109,6 +116,7 @@ a:hover {
   font-size: 2.2rem;
   color: black;
 }
+
 .invizibil {
   display: none;
 }
@@ -164,13 +172,13 @@ a:hover {
 .contact {
   background-color: #004d98;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 25px;
   height: 2em;
   color: white;
 }
 
 .follow {
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 
 .contact img {
@@ -178,11 +186,30 @@ a:hover {
 }
 
 .contacts {
-  margin: auto 900px auto;
+  margin: auto 800px auto;
 }
 
 .about .row {
   padding-left: 20rem;
+}
+
+.follow p {
+  display: inline-block;
+}
+
+a.arrow {
+  color: black;
+  display: inline;
+}
+
+a:hover, .s-link {
+  color: #edbb00;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a.arrow[onclick] {
+  cursor: pointer
 }
 
 /* ID */
@@ -209,4 +236,8 @@ a:hover {
 
 #contact {
   height: 1px;
+}
+
+#arrow {
+  display: inline-block;
 }

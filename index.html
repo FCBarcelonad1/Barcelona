@@ -1,331 +1,301 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- CSS only -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
-      crossorigin="anonymous"
-    />
-    <!-- My Css-->
-    <link rel="stylesheet" href="css/styles.css" />
-    <!-- font Barcelona -->
-    <link href="http://fonts.cdnfonts.com/css/fc-barcelona" rel="stylesheet" />
 
-    <title>Barcelona Atestat</title>
-    <link rel="icon" href="./images/favicon.ico" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
+  <!-- My Css-->
+  <link rel="stylesheet" href="css/styles.css" />
+  <!-- font Barcelona -->
+  <link href="http://fonts.cdnfonts.com/css/fc-barcelona" rel="stylesheet" />
 
-  <body>
-    <!-- Navbar -->
-    <div id="baraNavigatie"></div>
-    <nav class="navbar navbar-expand-lg myNavbar navbar-dark fixed-top">
+  <title>Barcelona Atestat</title>
+  <link rel="icon" href="./images/favicon.ico" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <div id="baraNavigatie"></div>
+  <nav class="navbar navbar-expand-lg myNavbar navbar-dark fixed-top">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
       <div class="container-fluid">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img
-              class="img-fluid logo mb-2"
-              src="./images/Barcelona_FC_logo.svg"
-              alt=""
-            />
-            <span class="fs-1">FC BARCELONA</span>
-          </a>
-        </div>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-6 mb-lg-0">
-            <!-- <li class="nav-item">
+        <a class="navbar-brand" href="#">
+          <img class="img-fluid logo mb-2" src="./images/Barcelona_FC_logo.svg" alt="" />
+          <span class="fs-1">FC BARCELONA</span>
+        </a>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-6 mb-lg-0">
+          <!-- <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li> -->
-            <li class="nav-item">
-              <a class="nav-link" href="#players"> Players </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link matches" href="#matches">Matches </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact </a>
-            </li>
-          </ul>
-        </div>
+          <li class="nav-item">
+            <a class="nav-link" href="#players"> Players </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link matches" href="#matches">Matches </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact </a>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-    <section>
-      <div class="first_team about">
-        <h1>About</h1>
-        <p class="fs-1">
-          &nbsp;&nbsp;&nbsp;&nbsp; Founded in 1899 by a group of Swiss, Spanish, English, and Catalan
-          footballers led by Joan Gamper, the club has become a symbol of
-          Catalan culture and Catalanism, hence the motto "Més que un club"
-          ("More than a club").
-        </p>
-        <h2 class="fs-1 ms-5 mt-5">Total market value: <b>€823.00m</b></h2>
-        <div class="mt-5">
-          <div class="row">
-            <div class="col">
-              <h2>Squad size: <b>28</b></h2>
-            </div>
-            <div class="col">
-              <h2>Average age: <b>25.7</b></h2>
-            </div>
-          </div>
-
-          <div class="row ">
-            <div class="col">
-              <h2>Foreigners: <b>17</b></h2>
-            </div>
-            <div class="col">
-              <h2>National team players: <b>19</b></h2>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col">
-              <h2>Staduim: <b>Camp Nou</b></h2>
-            </div>
-            <div class="col">
-              <h2>Current transfer record: <b>+€14.50m</b></h2>
-            </div>
-          </div>
-        </div>
-        <div class="victories mt-5">
-          <h2 class="fs-1 mb-5">
-            Victories
-            <p class="arrow">🛈</p>
-          </h2>
-          <div class="cups invizibil">
-            <h2 class="text-center">1X EUROPEAN CHAMPION CLUBS' CUP</h2>
-            <h2 class="text-center">4X CHAMPIONS LEAGUE WINNER</h2>
-            <h2 class="text-center">26X SPANISH CHAMPION</h2>
-            <h2 class="text-center">30X SPANISH CUP WINNER</h2>
-            <h2 class="text-center">13X SPANISH SUPER CUP WINNER</h2>
-            <h2 class="text-center">3X FIFA CLUB WORLD CUP WINNER</h2>
-            <h2 class="text-center">4X CUP WINNERS CUP WINNER</h2>
-            <h2 class="text-center">3X INTER-CITIES FAIRS CUP WINNER</h2>
-            <h2 class="text-center">5X UEFA SUPERCUP WINNER</h2>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <div id="players"></div>
-    <!-- Players  -->
-    <section class="first_team">
-      <h1 id="header1">First team</h1>
-      <hr />
-      <div>
-        <h2 class="type">Goalkeepers</h2>
+  <section>
+    <div class="first_team about">
+      <h1>About</h1>
+      <p class="fs-1">
+        &nbsp;&nbsp;&nbsp;&nbsp; Founded in 1899 by a group of Swiss, Spanish, English, and Catalan
+        footballers led by Joan Gamper, the club has become a symbol of
+        Catalan culture and Catalanism, hence the motto "Més que un club"
+        ("More than a club").
+      </p>
+      <h2 class="fs-1 ms-5 mt-5">Total market value: <b>€823.00m</b></h2>
+      <div class="mt-5">
         <div class="row">
-          <div class="team col-4">
-            <img src="./images/mini_ter_stegen.png" alt="" />
-            <br /><span>1 Marc-André <b>ter Stegen</b></span>
+          <div class="col">
+            <h2>Squad size: <b>28</b></h2>
           </div>
-          <div class="team col-4">
-            <img src="./images/mini_neto_2.png" alt="" />
-            <br /><span>13 <b>Neto</b></span>
+          <div class="col">
+            <h2>Average age: <b>25.7</b></h2>
           </div>
         </div>
-      </div>
-      <hr />
-      <div>
-        <h2 class="type">Defenders</h2>
+
+        <div class="row ">
+          <div class="col">
+            <h2>Foreigners: <b>17</b></h2>
+          </div>
+          <div class="col">
+            <h2>National team players: <b>19</b></h2>
+          </div>
+        </div>
+
         <div class="row">
-          <div class="team col-4">
-            <img src="./images/mini_dest.png" alt="" />
-            <span>2 Sergino <b>Dest</b></span>
+          <div class="col">
+            <h2>Staduim: <b>Camp Nou</b></h2>
           </div>
-          <div class="team col-4">
-            <img src="./images/mini_pique.png" alt="" />
-            <span>3 Gerard <b>Pique</b></span>
-          </div>
-          <div class="team col-4">
-            <img src="./images/mini_araujo.png" alt="" />
-            <span>4 Ronald <b>Araujo</b></span>
-          </div>
-          <div class="team col-4">
-            <img src="./images/mini_lenglet.png" alt="" />
-            <span>15 Clement <b>Lenglet</b></span>
-          </div>
-          <div class="team col-4">
-            <img src="./images/mini_alba.png" alt="" />
-            <span>18 Jordi <b>Alba</b></span>
-          </div>
-          <div class="team col-4">
-            <img src="./images/mini_s_roberto.png" alt="" />
-            <span>20 Sergi <b>Roberto</b></span>
-          </div>
-          <div class="team col-4">
-            <img src="./images/mini_umtiti.png" alt="" />
-            <span>23 Samuel <b>Umtiti</b></span>
-          </div>
-          <div class="team col-4">
-            <img src="./images/mini_firpo.png" alt="" />
-            <span>24 Junior <b>Firpo</b></span>
+          <div class="col">
+            <h2>Current transfer record: <b>+€14.50m</b></h2>
           </div>
         </div>
       </div>
-      <hr />
-      <h2 class="type">Midfielders</h2>
+      <div class="victories mt-5">
+        <h2 class="fs-1 mb-5" id="arrow">
+          Victories
+        </h2>
+        <a class="arrow fs-1 mb-5">🛈</a>
+
+        <div class="cups invizibil">
+          <h2 class="text-center">1X EUROPEAN CHAMPION CLUBS' CUP</h2>
+          <h2 class="text-center">4X CHAMPIONS LEAGUE WINNER</h2>
+          <h2 class="text-center">26X SPANISH CHAMPION</h2>
+          <h2 class="text-center">30X SPANISH CUP WINNER</h2>
+          <h2 class="text-center">13X SPANISH SUPER CUP WINNER</h2>
+          <h2 class="text-center">3X FIFA CLUB WORLD CUP WINNER</h2>
+          <h2 class="text-center">4X CUP WINNERS CUP WINNER</h2>
+          <h2 class="text-center">3X INTER-CITIES FAIRS CUP WINNER</h2>
+          <h2 class="text-center">5X UEFA SUPERCUP WINNER</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="players"></div>
+  <!-- Players  -->
+  <section class="first_team">
+    <h1 id="header1">First team</h1>
+    <hr />
+    <div>
+      <h2 class="type">Goalkeepers</h2>
       <div class="row">
         <div class="team col-4">
-          <img src="./images/mini_sergio_2.png" alt="" />
-          <span>5 Sergio <b>Busquets</b></span>
+          <img src="./images/mini_ter_stegen.png" alt="" />
+          <br /><span>1 Marc-André <b>ter Stegen</b></span>
         </div>
         <div class="team col-4">
-          <img src="./images/mini_pjanic.png" alt="" />
-          <span>8 Miralem <b>Pjanic</b></span>
-        </div>
-        <div class="team col-4">
-          <img src="./images/mini_riqui.png" alt="" />
-          <span>12 Ricard <b>Puig</b></span>
-        </div>
-        <div class="team col-4">
-          <img src="./images/mini_coutinho.png" alt="" />
-          <span>14 Philippe <b>Coutinho</b></span>
-        </div>
-        <div class="team col-4">
-          <img src="./images/mini_pedri.png" alt="" />
-          <span>16 <b>Pedri</b></span>
-        </div>
-        <div class="team col-4">
-          <img src="./images/mini_matheus.png" alt="" />
-          <span>19 Matheus <b>Fernandes</b></span>
-        </div>
-        <div class="team col-4">
-          <img src="./images/mini_de_jong.png" alt="" />
-          <span>21 Frankie <b>de Jong</b></span>
+          <img src="./images/mini_neto_2.png" alt="" />
+          <br /><span>13 <b>Neto</b></span>
         </div>
       </div>
-
-      <div>
-        <hr />
-        <h2 class="type">Forwards</h2>
-        <div class="row">
-          <div class="team col-4">
-            <img src="./images/mini_griezmann.png" alt="" />
-            <span>7 Antoine <b>Griezmann</b></span>
-          </div>
-          <div class="team col-4">
-            <img src="./images/mini_braithwaite.png" alt="" />
-            <span>9 Martin <b>Braithwaite</b></span>
-          </div>
-          <div class="team col-4">
-            <img src="./images/mini_messi.png" alt="" />
-            <span>10 Lionel <b>Messi</b></span>
-          </div>
-          <div class="team col-4">
-            <img src="./images/mini_dembele.png" alt="" />
-            <span>11 Osumane <b>Dembele</b></span>
-          </div>
-          <div class="team col-4">
-            <img src="./images/mini_trincao.png" alt="" />
-            <span>17 <b>Trincano</b></span>
-          </div>
-          <div class="team col-4">
-            <img src="./images/mini_ansu.png" alt="" />
-            <span>22 Anssumane <b>Fati</b></span>
-          </div>
+    </div>
+    <hr />
+    <div>
+      <h2 class="type">Defenders</h2>
+      <div class="row">
+        <div class="team col-4">
+          <img src="./images/mini_dest.png" alt="" />
+          <span>2 Sergino <b>Dest</b></span>
+        </div>
+        <div class="team col-4">
+          <img src="./images/mini_pique.png" alt="" />
+          <span>3 Gerard <b>Pique</b></span>
+        </div>
+        <div class="team col-4">
+          <img src="./images/mini_araujo.png" alt="" />
+          <span>4 Ronald <b>Araujo</b></span>
+        </div>
+        <div class="team col-4">
+          <img src="./images/mini_lenglet.png" alt="" />
+          <span>15 Clement <b>Lenglet</b></span>
+        </div>
+        <div class="team col-4">
+          <img src="./images/mini_alba.png" alt="" />
+          <span>18 Jordi <b>Alba</b></span>
+        </div>
+        <div class="team col-4">
+          <img src="./images/mini_s_roberto.png" alt="" />
+          <span>20 Sergi <b>Roberto</b></span>
+        </div>
+        <div class="team col-4">
+          <img src="./images/mini_umtiti.png" alt="" />
+          <span>23 Samuel <b>Umtiti</b></span>
+        </div>
+        <div class="team col-4">
+          <img src="./images/mini_firpo.png" alt="" />
+          <span>24 Junior <b>Firpo</b></span>
         </div>
       </div>
-    </section>
+    </div>
+    <hr />
+    <h2 class="type">Midfielders</h2>
+    <div class="row">
+      <div class="team col-4">
+        <img src="./images/mini_sergio_2.png" alt="" />
+        <span>5 Sergio <b>Busquets</b></span>
+      </div>
+      <div class="team col-4">
+        <img src="./images/mini_pjanic.png" alt="" />
+        <span>8 Miralem <b>Pjanic</b></span>
+      </div>
+      <div class="team col-4">
+        <img src="./images/mini_riqui.png" alt="" />
+        <span>12 Ricard <b>Puig</b></span>
+      </div>
+      <div class="team col-4">
+        <img src="./images/mini_coutinho.png" alt="" />
+        <span>14 Philippe <b>Coutinho</b></span>
+      </div>
+      <div class="team col-4">
+        <img src="./images/mini_pedri.png" alt="" />
+        <span>16 <b>Pedri</b></span>
+      </div>
+      <div class="team col-4">
+        <img src="./images/mini_matheus.png" alt="" />
+        <span>19 Matheus <b>Fernandes</b></span>
+      </div>
+      <div class="team col-4">
+        <img src="./images/mini_de_jong.png" alt="" />
+        <span>21 Frankie <b>de Jong</b></span>
+      </div>
+    </div>
 
-    <!-- Matches -->
-    <div id="matches"></div>
-    <section class="tickets">
-      <h1>Matches</h1>
+    <div>
+      <hr />
+      <h2 class="type">Forwards</h2>
+      <div class="row">
+        <div class="team col-4">
+          <img src="./images/mini_griezmann.png" alt="" />
+          <span>7 Antoine <b>Griezmann</b></span>
+        </div>
+        <div class="team col-4">
+          <img src="./images/mini_braithwaite.png" alt="" />
+          <span>9 Martin <b>Braithwaite</b></span>
+        </div>
+        <div class="team col-4">
+          <img src="./images/mini_messi.png" alt="" />
+          <span>10 Lionel <b>Messi</b></span>
+        </div>
+        <div class="team col-4">
+          <img src="./images/mini_dembele.png" alt="" />
+          <span>11 Osumane <b>Dembele</b></span>
+        </div>
+        <div class="team col-4">
+          <img src="./images/mini_trincao.png" alt="" />
+          <span>17 <b>Trincano</b></span>
+        </div>
+        <div class="team col-4">
+          <img src="./images/mini_ansu.png" alt="" />
+          <span>22 Anssumane <b>Fati</b></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Matches -->
+  <div id="matches"></div>
+  <section class="tickets">
+    <h1>Matches</h1>
+    <br />
+    <div class="april">
+      <h2 id="data">April 2021</h2>
       <br />
-      <div class="april">
-        <h2 id="data">April 2021</h2>
-        <br />
-        <div class="game">
-          <div class="team1">
-            <h3 class="textDreapta">
-              FC Barcelona<img src="./images/Barcelona_FC_logo.svg" alt="" /> vs
-            </h3>
+      <div class="game">
+        <div class="team1">
+          <h3 class="textDreapta">
+            FC Barcelona<img src="./images/Barcelona_FC_logo.svg" alt="" /> vs
+          </h3>
 
-            <div class="team2">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/ro/4/46/Getafe_logo.svg"
-                alt=""
-              />
-              <h3 class="textDreapta">Getafe</h3>
-            </div>
-          </div>
-        </div>
-        <hr size="6" />
-        <div class="game">
-          <div class="team1">
-            <h3 class="textDreapta">
-              FC Barcelona <img src="./images/Barcelona_FC_logo.svg" alt="" />vs
-            </h3>
-            <div class="team2">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/ro/d/d3/Granada_CF.svg"
-                alt=""
-              />
-              <h3 class="textDreapta">Granada CF</h3>
-            </div>
+          <div class="team2">
+            <img src="https://upload.wikimedia.org/wikipedia/ro/4/46/Getafe_logo.svg" alt="" />
+            <h3 class="textDreapta">Getafe</h3>
           </div>
         </div>
       </div>
-    </section>
-    <br /><br /><br /><br /><br />
-
-    <div id="contact"></div>
-    <section class="contact">
-      <div class="row contacts">
-        <div class="follow col-4">
-          <img
-            src="https://cdn3.iconfinder.com/data/icons/capsocial-round/500/facebook-512.png"
-            alt=""
-          />
-          <a href="https://www.facebook.com/vatra.dragos">Facebook</a>
-        </div>
-        <div class="follow col-4">
-          <img
-            src="https://cdn2.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-whatsapp-circle-256.png"
-            alt=""
-          />
-          <a href="">0753387079</a>
-        </div>
-
-        <div class="follow col-4">
-          <img
-            src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Instagram-256.png"
-            alt=""
-          />
-          <a href="https://www.instagram.com/vatradragos/">Instagram</a>
+      <hr size="6" />
+      <div class="game">
+        <div class="team1">
+          <h3 class="textDreapta">
+            FC Barcelona <img src="./images/Barcelona_FC_logo.svg" alt="" />vs
+          </h3>
+          <div class="team2">
+            <img src="https://upload.wikimedia.org/wikipedia/ro/d/d3/Granada_CF.svg" alt="" />
+            <h3 class="textDreapta">Granada CF</h3>
+          </div>
         </div>
       </div>
-    </section>
-    <!-- JavaScript Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
-      crossorigin="anonymous"
-    ></script>
-    <!-- jQuery  -->
-    <script
-      src="https://code.jquery.com/jquery-3.6.0.js"
-      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-      crossorigin="anonymous"
-    ></script>
-    <!-- My Script  -->
-    <script src="index.js"></script>
-  </body>
+    </div>
+  </section>
+  <br /><br /><br /><br /><br />
+
+  <div id="contact"></div>
+  <section class="contact">
+    <div class="row contacts">
+      <div class="follow col-4">
+        <img src="https://cdn3.iconfinder.com/data/icons/capsocial-round/500/facebook-512.png" alt="" />
+        <a href="https://www.facebook.com/vatra.dragos" target="_blank">Facebook</a>
+      </div>
+      <div class="follow col-4">
+        <img
+          src="https://cdn2.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-whatsapp-circle-256.png"
+          alt="" />
+        <p> 0753387079</p>
+      </div>
+
+      <div class="follow col-4">
+        <img src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Instagram-256.png" alt="" />
+        <a href="https://www.instagram.com/vatradragos/" target="_blank">Instagram</a>
+      </div>
+    </div>
+  </section>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+  </script>
+  <!-- jQuery  -->
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+  <!-- My Script  -->
+  <script src="index.js"></script>
+</body>
+
 </html>
