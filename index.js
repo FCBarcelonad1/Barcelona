@@ -1,6 +1,18 @@
-$(".matches").on("click", function() {
-    $(".umplutura").remove();
-    $(".tickets").fadeIn();
-})
+var pressed=0;
 
-$(".tickets").removeClass("invizibil");
+$(".arrow").click(function (e) { 
+    
+    if(pressed == 0)
+    {
+        $(".cups").slideDown();
+        $(".cups").removeClass("invizibil");
+        
+        pressed=1;
+    }
+    else
+    {
+        $(".cups").slideUp();
+        $(".cups").addClass("invizibil");
+        pressed=0;
+    }
+});

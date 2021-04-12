@@ -11,18 +11,18 @@ body {
 
 @media screen and (min-width: 1300px) {
   body {
-    -moz-transform: scale(0.50, 0.50); /*Moz-browsers*/
-     zoom: 0.50;  /*Other non-webkit browsers */
+    -moz-transform: scale(0.5, 0.5); /*Moz-browsers*/
+    zoom: 0.5; /*Other non-webkit browsers */
     zoom: 50%; /*Webkit browsers*/
   }
 }
 @media screen and (min-width: 1800px) {
-    body {
-      -moz-transform: scale(0.75, 0.75); /*Moz-browsers*/
-       zoom: 0.75;  /*Other non-webkit browsers */
-      zoom: 75%; /*Webkit browsers*/
-    }
+  body {
+    -moz-transform: scale(0.75, 0.75); /*Moz-browsers*/
+    zoom: 0.75; /*Other non-webkit browsers */
+    zoom: 75%; /*Webkit browsers*/
   }
+}
 
 li {
   margin: auto 2rem;
@@ -52,13 +52,13 @@ span {
 }
 
 a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
   display: inline-block;
 }
 
-a:hover{
-    color: lightblue;
+a:hover {
+  color: lightblue;
 }
 
 /* CLASSES */
@@ -72,10 +72,12 @@ a:hover{
   width: 5rem;
 }
 
-.first_team {
-  -webkit-text-stroke: 1.5px black;
-  font-size: 1.3em;
-  background-color: white;
+.about {
+  margin-top: 5rem;
+}
+
+.arrow{
+  display: inline-block;
 }
 
 .tickets {
@@ -84,7 +86,7 @@ a:hover{
   text-align: center;
   margin: 200px 500px auto;
   border-radius: 20px;
-  -webkit-text-stroke: 0.7px black;
+  -webkit-text-stroke: 1px black;
   font-size: 1.5em;
 }
 
@@ -116,6 +118,9 @@ a:hover{
 }
 
 .first_team {
+  -webkit-text-stroke: 1.5px black;
+  font-size: 1.3em;
+  background-color: white;
   padding: 100px 100px;
   background-color: rgb(199, 199, 200, 0.9);
   text-align: justify;
@@ -124,6 +129,15 @@ a:hover{
   -webkit-text-stroke: 0.7px black;
   font-size: 1.5em;
   color: black;
+}
+
+.first_team h1 {
+  color: #edbb00;
+  text-align: center;
+}
+
+.first_team .about {
+  margin-top: 5rem;
 }
 
 .first_team img {
@@ -167,6 +181,9 @@ a:hover{
   margin: auto 900px auto;
 }
 
+.about .row {
+  padding-left: 20rem;
+}
 
 /* ID */
 
