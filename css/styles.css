@@ -16,7 +16,7 @@ body {
     zoom: 50%; /*Webkit browsers*/
   }
 }
-@media screen and (min-width: 1900px) {
+@media screen and (min-width: 1800px) {
     body {
       -moz-transform: scale(0.75, 0.75); /*Moz-browsers*/
        zoom: 0.75;  /*Other non-webkit browsers */
@@ -128,7 +128,7 @@ a:hover{
 
 .first_team img {
   max-width: 640px;
-  height: 400px;
+  max-height: 400px;
 }
 
 .team {
